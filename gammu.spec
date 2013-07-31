@@ -1,13 +1,13 @@
 Summary:	Tool suite for mobile phones
 Name:		gammu
-Version:	1.32.0
+Version:	1.33.0
 Release:	1
 License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://dl.cihar.com/gammu/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	a9de0904ab08093a1514d876c7bec13a
+# Source0-md5:	66b95afbde3085168c4a20266e8cb5c0
 URL:		http://www.gammu.org/
-BuildRequires:	bluez-libs-devel
+BuildRequires:	bluez4-devel
 BuildRequires:	cmake
 BuildRequires:	curl-devel
 BuildRequires:	gettext-devel
